@@ -35,7 +35,7 @@ group :development do
   gem 'spring-commands-rspec'
 end
 
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data'
 
 gem 'rails-i18n', git: 'https://github.com/svenfuchs/rails-i18n', branch: 'master'
 
@@ -62,3 +62,8 @@ gem 'cancancan'
 gem 'dragonfly'
 gem 'unf'
 gem 'kaminari'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-owl-carousel2'
+  gem 'rails-assets-ion.rangeSlider'
+end

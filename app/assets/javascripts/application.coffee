@@ -1,0 +1,9 @@
+#= require jquery2
+#= require jquery_ujs
+#= require bootstrap
+#= require jquery.easing
+#= require owl-carousel2
+#= require ion.rangeSlider
+#= require bravana
+#= require bravana-shop
+#= require turbolinks
