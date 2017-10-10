@@ -15,9 +15,3 @@ test:
   database: shopping_test
   username: postgres
   password: 123456
-
-production:
-  <<: *default
-  database: shopping
-  username: shopping
-  password: <%= ENV['SHOPPING_DATABASE_PASSWORD'] %>
